@@ -14,7 +14,7 @@ public class MyClass {
 	}
 	public static int path(int c, int d){
 		int f = 0;
-		for(int i = c; i < d+1; i++){
+		for(int i = c + 1; i < d+1; i++){
 			f = f + arr[i];
 		}
 		return f;
