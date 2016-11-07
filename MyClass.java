@@ -13,10 +13,10 @@ public class MyClass {
 		System.out.println(path(start, end));	
 	}
 	public static int path(int c, int d){
-		int f = 0;
+		int distance = 0;
 		for(int i = c + 1; i < d+1; i++){
-			f = f + arr[i];
+			distance = distance + arr[i];
 		}
-		return f;
+		return distance;
 	}
 }
