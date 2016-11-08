@@ -10,7 +10,7 @@ public class MyClass {
 		int start = 4; //change 'start' variable
 		int end = 6; //change 'end' variable
 	
-		System.out.println(path(start, end));	
+		System.out.println(path(start, end) + " km");	
 	}
 	public static int path(int c, int d){
 		int distance = 0;
